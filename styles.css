@@ -11,9 +11,9 @@
 }
 
 .mdl-layout__title {
-  font-size: 34px !important;
+  font-size: 30px !important;
   text-align: center;
-  font-weight: 390 !important;
+  font-weight: 400 !important;
 }
 
 .is-compact .mdl-layout__title span {
@@ -21,7 +21,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 80px !important ;
+  min-height: 200px;
 }
 
 .is-compact .portfolio-logo-row {
