@@ -115,7 +115,7 @@ img.article-image {
 
 .prof-picture{
   box-shadow: 6px 6px 7px 0 #503b31;
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 
 .portfolio-max-width {
