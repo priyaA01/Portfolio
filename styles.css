@@ -113,6 +113,11 @@ img.article-image {
   height: auto;
 }
 
+.prof-picture{
+  box-shadow: 6px 6px 7px 0 #503b31;
+  border-radius: 5px;
+}
+
 .portfolio-max-width {
   max-width: 900px;
   margin: auto;
@@ -166,5 +171,21 @@ img.article-image {
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
+}
+
+.mdl-layout__content {
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-flow: column nowrap;
+-ms-flex-flow: column nowrap;
+flex-flow: column nowrap;
+}
+
+
+.mdl-layout__content > *:not(.mdl-layout-spacer) {
+-webkit-flex: none;
+-ms-flex: none;
+flex: none;
 }
 
