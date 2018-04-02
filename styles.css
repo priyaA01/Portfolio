@@ -114,7 +114,7 @@ img.article-image {
 }
 
 .prof-picture{
-  box-shadow: 6px 6px 7px 0 #503b31;
+  box-shadow: 6px 6px 7px 0 #503b31 !important;
   border-radius: 5px !important;
 }
 
